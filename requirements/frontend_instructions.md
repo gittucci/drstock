@@ -24,33 +24,55 @@ Use this guide to build a complete web app for managing stock, inventory and sup
 
 # Current File structure
 DRSTOCK/
-├── drs_stock_control/
-│   └── .next/
-├── app/
-│   ├── fonts/
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   └── ui/
-│       ├── button.tsx
-│       ├── card.tsx
-│       └── input.tsx
-├── lib/
-├── node_modules/
-├── requirements/
-├── .eslintrc.json
-├── .gitignore
-├── components.json
-├── next-env.d.ts
-├── next.config.mjs
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
+├── backend/
+│   ├── .env.local
+│   ├── .eslintrc.json
+│   ├── .gitignore
+│   ├── components.json
+│   ├── middleware.ts
+│   ├── next.config.mjs
+│   ├── next-env.d.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── README.md
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+├── frontend/
+│   ├── .next/
+│   ├── app/
+│   │   ├── fonts/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   └── ui/
+│   │       ├── button.tsx
+│   │       ├── card.tsx
+│   │       └── input.tsx
+│   ├── lib/
+│   ├── node_modules/
+│   ├── requirements/
+│   ├── .eslintrc.json
+│   ├── .gitignore
+│   ├── components.json
+│   ├── next-env.d.ts
+│   ├── next.config.mjs
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── README.md
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+└── requirements/
+    ├── app_instructions.md
+    └── frontend_instructions.md
+    ├── mockup_customers.png
+    ├── mockup_entries.png
+    ├── mockup_exits.png
+    ├── mockup_products.png
+    └── mockup_suppliers.png
 
 # Rules
 - All new components should be in /components and named like example-component.tsx unless otherwise specified
